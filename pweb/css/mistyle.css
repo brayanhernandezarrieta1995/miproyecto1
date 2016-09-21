@@ -1,0 +1,147 @@
+/*font-family: 'Open Sans', sans-serif; */
+
+#contenidos{
+	width: 1000px;                     /* 1000 pixeles de ancho para la pagina */
+	height: auto;                      /* alto automático para que a medida que se vaya ingresando la información se vaya expandiendo */
+	margin: auto;                      /* margen automático */
+	position: relative;                /* posición relativa */               
+}
+
+  /* etiquetas */
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+    }
+
+	h1{
+		font-family: 'Open Sans', sans-serif;       /* Tipo de fuente a utilizar */
+		margin-left: 10px;                          /* margen a la izquierda para h1 */
+		font-size: 60px;                            /* tamaño de la fuente */
+		text-align: center;                         /* Alineación al centro */
+	}
+
+	h2{
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		margin-left: 10px;
+		font-size: 20px;
+		text-align: left; 
+
+	}
+
+	h3
+	{
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	h4{
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	header{
+		/*width: 1000px;  */                          /* Ancho */
+		height: 140px;                            /* Alto */
+		background: white; 
+		border-style: solid;
+    	border-color: rgb(242, 184, 13);   
+		       
+
+	}
+
+	nav{
+		width: 1000px;
+		height: 60px;
+		background-color: rgb(242, 184, 13);
+		border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px; 
+	
+	}
+
+	ul{
+		margin: auto;
+		padding-top: 7px;
+		
+	}
+
+	li{
+		float: left;                            /* para que los elementos alinie de forma horizontal a la izquierda los elementos del menu */
+		list-style-type: none;                  /* para que no tome los elementos tipo lista, sino que los tome como un menu */                 
+		padding: 10px;                          /* Separar párrafo */
+		background: #006680;                      /* Color relleno de botones */
+		margin: 3px;
+		border-radius: 10px;                    /* Borde para los botones */
+		box-shadow: 0 0 10px white inset;        /* box-shadow sombra para los botones, inset referida a la sombra interna */
+	    min-width: 140px;                       /* Ajustar ancho del elemento */
+	}
+
+
+   
+    section{
+    	width: 698px;          /* Anchura */
+    	background: gray;      /* Color */
+    	height: 800px;         /* Alto */
+    	float: left;           /* A la izquierda */
+    	margin-top: 20px;      /* Establece la anchura del margen superior */
+    	border-radius: 10px;
+    	border-style: solid;
+    	border-color: orange;
+    	    }
+
+
+    aside{
+    	width: 280px;
+    	background: white;
+    	height: 800px;
+    	float: left;     /* Forma horizontal y a la izquierda los contenidos */
+    	margin-left: 10px; /* Separar borde aside de section */
+    	margin-top: 20px;
+    	border-radius: 10px;
+    	border-style: solid;
+    	border-color: orange;
+    }
+
+    footer 
+    {
+    	width: 1000px;
+    	height: 60px;
+    	background: white;
+    	float: left;
+    	margin-top: 20px;
+    
+    }
+
+    p{
+    	font-size: 13px;
+    	font-weight: bolder;
+    	line-height: 24px;     /* separar líneas de párrafo */
+    	padding: 10px;         /* separar párrafo */
+    	text-align: justify;   /* alineación de texto, justify para buena presentación de un párrafo */
+    }
+	
+
+
+	/* clases */
+
+	.ancho_menu_home{width: 900px;}
+	.ancho_menu_paginas{width: 970px;}
+
+
+     /* colores de los botones, deacuerdo a eventos que ocurrirán con ellos */
+     /* uso del padding para separar */
+     /* uso del none; para quitar linea del hipervínculo cuando se enlace al html5 */
+     /* son eventos que se pueden tener con un hipervínculo */
+	.menu:link{color: white; text-decoration: none;} /* evento link que es cuando el hipervinculo esta activo */       
+	.menu:visited{color: white; text-decoration: none;}
+	.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}   /* mejorar los botones */
+	.menu:active{color: white; text-decoration: none;}
+
+	/* seudo clase */
+
+}
